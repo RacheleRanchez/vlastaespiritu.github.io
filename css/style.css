@@ -1,0 +1,116 @@
+a {
+	text-decoration: none;
+}
+body{
+	background:#DEB887;
+}
+.logo{
+	width: 18vw;
+	margin-left: 10px;
+	height: 20vh;
+}
+.menu {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+}
+
+.menu li {
+	padding: 16px;
+	background: #A0522D;
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	font-family: Bernard MT Cond;
+	list-style: none;
+	border-radius: 9vh;
+}
+
+.menu li:hover {
+	background: #A0522D;
+	border: 0px solid;
+	color: white;
+	transition: all .5s ease-out;
+}
+
+.showcase {
+	height: 100vh;
+	background-image: url(../images/cafe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: all .4s ease-out;
+	color: 	#D2691E;
+	font-family: Edo SZ;
+	font-size: 45px;
+	text-align: center;
+	line-height: 600px;
+}
+
+.showcase:hover {
+	height: 100vh;
+	background-image: url(../images/shop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.low {
+	font-family: Edo SZ;
+	color: #2F4F4F;
+	text-align: center;
+	font-size: 21px;
+	
+}
+.article1 {
+	background-image: url(../images/cover.jpg);
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Ananda;
+	font-size: 30px;
+	text-align: left;
+	color:#B22222;
+	padding: 30px;
+
+}
+
+.left {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	padding: 20px;
+	background: #F5DEB3;
+	color: white;
+}
+
+.about{
+	padding: 15px;
+	border: 2px black solid;
+}
+.image{
+	background-image: url(../images/e.png);
+}
+.about1 {
+	background-image: url(../images/h.jpg);
+	font-family: Bookman Old Style;
+	font-size: 20px;
+	color: white;
+	height: 80vh;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+.delivery{
+	font-family: Bookman Old Style;
+	font-size: 20px;
+	color: #FFDEAD;
+	height: 35vh;
+	background-image: url(../images/e.png);
+	text-align: center;
+	border: 5px #A0522D solid;
+}

@@ -1,0 +1,112 @@
+a {
+	text-decoration: none;
+}
+body{
+	background:#DEB887;
+}
+.logo{
+	width: 18vw;
+	margin-left: 10px;
+	height: 20vh;
+}
+.menu {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+}
+
+.menu li {
+	padding: 16px;
+	background: #A0522D;
+	color: black;
+	text-align: center;
+	font-size: 35px;
+	font-family: Bernard MT Cond;
+	list-style: none;
+	border-radius: 9vh;
+}
+
+.menu li:hover {
+	background: #A0522D;
+	border: 0px solid;
+	color: white;
+	transition: all .5s ease-out;
+}
+.drinks{
+	background-image: url(../images/6cappuccino.jpg);
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:white;
+	padding: 30px;
+	border:10px white solid;
+}
+.drinks1{
+	background-image: url(../images/4macchiato.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:white;
+	padding: 30px;
+	border:10px white solid;	
+}
+.drinks2{
+	background-image: url(../images/7sweetblack.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:white;
+	padding: 30px;
+	border:10px white solid;	
+}
+.sweet{
+	background-image: url(../images/strawberry.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:white;
+	padding: 30px;
+	border:10px white solid;	
+}
+.sweet1{
+	background-image: url(../images/blueberry.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:white;
+	padding: 30px;
+	border:10px white solid;	
+}
+.sweet2{
+	background-image: url(../images/s.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:black;
+	padding: 30px;
+	border:10px white solid;	
+}
